@@ -37,8 +37,8 @@ angular.module("MafiaApp.role", [
         $mdDialog.show(
               $mdDialog.alert()
                 .clickOutsideToClose(false)
-                .title('Cannot enter the Lobby')
-                .textContent('Please make sure that you login first before you enter the lobby!')
+                .title('Cannot enter the Game')
+                .textContent('Please make sure that you login first before you enter the Game!')
                 .ok("OK I'm gunna login first")
             );
         $location.path('login');
